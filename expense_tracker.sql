@@ -1,12 +1,12 @@
 
 -- Expense Tracker & Personal Finance Manager
 
-CREATE DATABASE IF NOT EXISTS expense_tracker;
+CREATE DATABASE expense_tracker;
 
 USE expense_tracker;
 
 -- Create Expenses Table
-CREATE TABLE IF NOT EXISTS expenses (
+CREATE TABLE expenses (
     expense_id INT PRIMARY KEY AUTO_INCREMENT,
     expense_date DATE NOT NULL,
     category VARCHAR(50) NOT NULL,
